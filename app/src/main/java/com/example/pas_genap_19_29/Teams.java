@@ -12,7 +12,20 @@ public class Teams {
     @SerializedName("strBadge")
     private String badgeUrl;
 
+    @SerializedName("strSport")
+    private String sportname;
+
+    @SerializedName("strSportDescription")
+    private String sportdesc;
+
+    @SerializedName("strSportThumb")
+    private String sportUrl;
+
     public String getName() { return name; }
     public String getStadium() { return stadium; }
     public String getBadgeUrl() { return badgeUrl; }
+
+    public String getSportname() { return sportname; }
+    public String getSportdesc() { return sportdesc; }
+    public String getSportUrl() { return sportUrl; }
 }
